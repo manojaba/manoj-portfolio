@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Portfolio() {
     return (
@@ -11,13 +12,13 @@ function Portfolio() {
                             <img className='mx-auto mb-[32px] md:mb-0 w-full h-auto object-contain ' src='./images/portfolio/desktop/entertainment-final.png' alt='portfolio project gist'></img>
                         </picture>
                     </div>
-                    <div className=' xl: py-[24px] md:pt-[32px] md:pb-[50px] xl:py-[103px] border-[#979797] border-opacity-15 border-t-2 border-b-2   pr-[10px] flex-1 max-w-50ch md:w-1/2 md:text-left text-center '>
+                    <div className=' xl: py-[24px] md:pt-[32px] md:pb-[50px] xl:py-[103px] border-[#979797] border-opacity-15 border-t-2 border-b-2   pr-[10px] flex-1 max-w-40ch md:w-1/2 md:text-left  '>
                         <h1 className='font-ibarra font-bold text-[40px] leading-[42px] tracking[-0.36px]'>Entertainment</h1>
                         <p className='font-publicSans font-normal text-[16px] leading-[30px] mt-[24px]  xl:mt-[28px] md:mt-[28px] '>This project required me to build a reactive entertainment web application and get it looking as close to the design as possible.
                             I used react router along with useContext in React to manage multi page and transfer state to deep nested components.
                         </p>
-                        <button className=' w-[175px] h-[48px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D mt-[24px] md:mt-[35px] xl:mt-[24px]'>VIEW PROJECT</button>
-
+                        <NavLink to='/entertainment'>                        <button className=' w-[175px] h-[48px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D mt-[24px] md:mt-[35px] xl:mt-[24px]'>VIEW PROJECT</button>
+                        </NavLink>
                     </div>
 
                 </div>
@@ -29,7 +30,7 @@ function Portfolio() {
                             <img className='mx-auto mb-[32px] md:mb-0 w-full h-auto object-contain ' src='./images/portfolio/desktop/cart.png' alt='cart app'></img>
                         </picture>
                     </div>
-                    <div className=' xl: py-[24px] md:pt-[32px] md:pb-[50px] xl:py-[103px] border-[#979797] border-opacity-15 border-t-2 border-b-2   pr-[10px] flex-1 max-w-50ch md:w-1/2 md:text-left text-center '>
+                    <div className=' xl: py-[24px] md:pt-[32px] md:pb-[50px] xl:py-[103px] border-[#979797] border-opacity-15 border-t-2 border-b-2   pr-[10px] flex-1 max-w-40ch md:w-1/2 md:text-left   '>
                         <h1 className='font-ibarra font-bold text-[40px] leading-[42px] tracking[-0.36px]'>Cart</h1>
                         <p className='font-publicSans font-normal text-[16px] leading-[30px] mt-[24px]  xl:mt-[28px] md:mt-[28px] '>This project required me to build a product list page that includes a functional cart in which the user should be able add or reemove items in the cart.
                             I used React along with Tailwind CSS for Interactivity and  I used local storage to hold cart data.
@@ -47,7 +48,7 @@ function Portfolio() {
                             <img className='mx-auto mb-[32px] md:mb-0 w-full h-auto object-contain ' src='./images/portfolio/desktop/elearning.png' alt='portfolio project gist'></img>
                         </picture>
                     </div>
-                    <div className=' xl: py-[24px] md:pt-[32px] md:pb-[50px] xl:py-[103px] border-[#979797] border-opacity-15 border-t-2 border-b-2   pr-[10px] flex-1 max-w-50ch md:w-1/2 md:text-left text-center '>
+                    <div className=' xl: py-[24px] md:pt-[32px] md:pb-[50px] xl:py-[103px] border-[#979797] border-opacity-15 border-t-2 border-b-2   pr-[10px] flex-1 max-w-40ch md:w-1/2 md:text-left    '>
                         <h1 className='font-ibarra font-bold text-[40px] leading-[42px] tracking[-0.36px]'>E-Learning</h1>
                         <p className='font-publicSans font-normal text-[16px] leading-[30px] mt-[24px]  xl:mt-[28px] md:mt-[28px] '>This project required me to build a responsive landing page for Skilled e learning app.I used HTML5 along with CSS to set hover state for interactive elements.
                         </p>

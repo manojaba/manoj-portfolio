@@ -4,8 +4,8 @@ import { NavLink, Outlet } from 'react-router-dom'
 function Landing() {
     return (
         <div >
-            <div className='px-[32px] py-[32px] pb-0 md:px-[40px] md:py-[64px] xl:px-[165px] xl:pb-[150px]'>
-                <nav className=' flex justify-between'>
+            <div className='px-[32px] py-[32px] pb-0 md:px-[40px] md:py-[64px] xl:px-[165px] xl:pb-[150px] '>
+                <nav className=' flex justify-between bg-green-200 mb-[40px] md:mb-[47px] xl:mb-[94px]'>
                     <p className='font-publicSans text-[32px] font-extrabold'>mb</p>
                     <div className='flex items-center space-x-[10px] md:space-x-[42px]'>
                         <NavLink to={'/'} ><p className='font-publicSans text-[12px] font-normal tracking-[2px] text-[#33323D]'>HOME</p></NavLink>

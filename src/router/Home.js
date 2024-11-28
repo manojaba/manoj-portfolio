@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
     return (
         <div >
-            <div className='mt-[40px] md:mt-[47px] border border-red-500 md:relative '>
+            <div className='mt-[40px] md:mt-[47px] border  md:relative '>
                 <picture>
                     <source srcSet='./images/homepage/desktop/image-homepage-hero@2x.jpg' media="(min-width:1280px)"></source>
                     <source srcSet='./images/homepage/tablet/image-homepage-hero@2x.jpg' media="(min-width:768px)"></source>
@@ -21,7 +21,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className='mt-[96px] md:flex md:gap-[60px] xl:gap-[125px] bg-blue-200'>
+            <div className='mt-[96px] md:flex md:gap-[60px] xl:gap-[125px] '>
                 <picture>
                     <source srcSet='./images/homepage/desktop/profile-desktop.png' media="(min-width:1280px)" ></source>
                     <source srcSet='./images/homepage/tablet/profile-tablet.png' media="(min-width:768px)"></source>
@@ -29,7 +29,7 @@ function Home() {
                     <img className='mb-[32px] md:mb-0 ' src='./images/homepage/desktop/profile-desktop.png' alt='profile of the developer'></img>
                 </picture>
 
-                <div className='border-[#979797] border-opacity-15 border-t-2 border-b-2 pt-[32px] xl:pt-[50px] pb-[40px] xl:pb-[46px]  md:w-3/4 bg-green-100 '>
+                <div className='border-[#979797] border-opacity-15 border-t-2 border-b-2 pt-[32px] xl:pt-[50px] pb-[40px] xl:pb-[46px]  md:w-3/4  '>
                     <h1 className='font-ibarra font-bold text-[40px] leading-[42px] tracking[-0.36px]'>About Me</h1>
                     <p className='mt-[28px] mb-[24px] font-publicSans font-normal text-[16px] leading-[30px] '>I'm a budding front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML,using modern CSS practices and
                         writing clean JavaScript. When writing JavaScript code, I mostly use React,but I can adapt to whatever tools are required. I'm based in Milano,Italy,but I can work remotely and have experience in remote teams. When I'm
@@ -42,7 +42,7 @@ function Home() {
 
 
             </div>
-            <div className='mt-[115px] mb-[80px] flex flex-col  items-center text-center md:text-left md:items-center  md:flex-row bg-red-100 '>
+            <div className='mt-[115px] mb-[80px] flex flex-col  items-center text-center md:text-left md:items-center  md:flex-row  '>
                 <h1 className='font-ibarra font-bold text-[40px] leading-[42px] tracking-[-0.36px] mb-[40px] md:mb-0 '>Intersted in doing a project together?</h1>
                 <hr className=' w-1/2 border-t md:border-[#979797] opacity-15 md:mx-[32px]'></hr>
                 <button className='w-[162px] h-[48px] md:min-w-[162px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D] '>CONTACT ME</button>

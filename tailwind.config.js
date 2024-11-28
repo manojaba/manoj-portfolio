@@ -11,6 +11,7 @@ module.exports = {
       },
       spacing: {
         '50ch': '50ch',
+        '40ch': '40ch',
       },
     },
   },
