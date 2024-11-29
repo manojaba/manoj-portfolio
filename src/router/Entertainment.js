@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Entertainment() {
     return (
@@ -39,9 +40,11 @@ function Entertainment() {
                                         <p className="font-publicSans font-bold text-[13px] leading-[30px] text-[#5FB4A2]">
                                             TAILWIND CSS/ REACT
                                         </p>
-                                        <button className="w-[175px] h-[48px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D] mt-[24px]">
-                                            VIEW WEBSITE
-                                        </button>
+                                        <a href='https://manojaba.github.io/Entertainment-Web-App/#/' target='blank'>
+                                            <button className="w-[175px] h-[48px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D] mt-[24px]">
+                                                VIEW WEBSITE
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                                 <p className="font-publicSans font-normal text-[16px] leading-[30px] mt-[24px] md:mt-0 md:w-1/2  xl:hidden w-full ">
@@ -70,20 +73,24 @@ function Entertainment() {
                     <div className='flex items-center space-x-[25px] py-[33px] w-1/2'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M9 0L1 8l8 8" /></svg>
 
-                        <div>
-                            <h1 className='font-ibarra font-normal text-[32px] leading-[36px] tracking-[-0.29px]'>E-Learning</h1>
-                            <p className='font-publicSans font-normal text-[16px] leading-[30px]'>Previous Project</p>
-                        </div>
+                        <NavLink to='/learning'>
+                            <div>
+                                <h1 className='font-ibarra font-normal text-[32px] leading-[36px] tracking-[-0.29px]'>E-Learning</h1>
+                                <p className='font-publicSans font-normal text-[16px] leading-[30px]'>Previous Project</p>
+                            </div>
+                        </NavLink>
 
                     </div>
                     <div className='border-l-2 border-[#979797] border-opacity-15 '></div>
                     <div className='flex items-center justify-end space-x-[25px] py-[33px]   w-1/2 '>
 
-                        <div>
-                            <h1 className='font-ibarra font-normal text-[32px] leading-[36px] tracking-[-0.29px]'>Cart</h1>
-                            <p className='font-publicSans font-normal text-[16px] leading-[30px]'>Next Project</p>
+                        <NavLink to='/cart'>
+                            <div>
+                                <h1 className='font-ibarra font-normal text-[32px] leading-[36px] tracking-[-0.29px]'>Cart</h1>
+                                <p className='font-publicSans font-normal text-[16px] leading-[30px]'>Next Project</p>
 
-                        </div>
+                            </div>
+                        </NavLink>
                         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M1 0l8 8-8 8" /></svg>
 
                     </div>

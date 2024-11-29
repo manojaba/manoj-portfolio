@@ -5,6 +5,7 @@ import Contact from './Contact'
 import Entertainment from './Entertainment'
 import Home from './Home'
 import Landing from './Landing'
+import Learning from './Learning'
 import Portfolio from './Portfolio'
 
 function Layout() {
@@ -19,6 +20,7 @@ function Layout() {
                     <Route path='contact' element={<Contact />}></Route>
                     <Route path='/entertainment' element={<Entertainment />}></Route>
                     <Route path='/cart' element={<Cart />}></Route>
+                    <Route path='/learning' element={<Learning />}></Route>
 
                 </Route>
             </Routes>

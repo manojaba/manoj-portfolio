@@ -35,8 +35,8 @@ function Portfolio() {
                         <p className='font-publicSans font-normal text-[16px] leading-[30px] mt-[24px]  xl:mt-[28px] md:mt-[28px] '>This project required me to build a product list page that includes a functional cart in which the user should be able add or reemove items in the cart.
                             I used React along with Tailwind CSS for Interactivity and  I used local storage to hold cart data.
                         </p>
-                        <button className=' w-[175px] h-[48px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D mt-[24px] md:mt-[35px] xl:mt-[24px]'>VIEW PROJECT</button>
-
+                        <NavLink to='/cart'>                        <button className=' w-[175px] h-[48px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D mt-[24px] md:mt-[35px] xl:mt-[24px]'>VIEW PROJECT</button>
+                        </NavLink>
                     </div>
 
                 </div>
@@ -52,8 +52,8 @@ function Portfolio() {
                         <h1 className='font-ibarra font-bold text-[40px] leading-[42px] tracking[-0.36px]'>E-Learning</h1>
                         <p className='font-publicSans font-normal text-[16px] leading-[30px] mt-[24px]  xl:mt-[28px] md:mt-[28px] '>This project required me to build a responsive landing page for Skilled e learning app.I used HTML5 along with CSS to set hover state for interactive elements.
                         </p>
-                        <button className=' w-[175px] h-[48px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D mt-[24px] md:mt-[35px] xl:mt-[24px]'>VIEW PROJECT</button>
-
+                        <NavLink to='/learning'>                        <button className=' w-[175px] h-[48px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D mt-[24px] md:mt-[35px] xl:mt-[24px]'>VIEW PROJECT</button>
+                        </NavLink>
                     </div>
 
                 </div>

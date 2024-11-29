@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-export default function Cart() {
+export default function Learning() {
     return (
         <div>
             <div>
                 <img
                     className="mb-[40px]"
-                    src="./images/detail/cart/projects template.png"
-                    alt="tablet layout for cart app"
+                    src="./images/detail/elearning/projects template.png"
+                    alt="tablet layout for learning app"
                 />
                 <div className='xl:flex xl:gap-[125px] w-full '>
                     <div className='xl:flex xl:gap-[125px]  xl:w-1/3   '>
@@ -19,7 +19,7 @@ export default function Cart() {
                                 <div className="md:w-1/2 xl:w-full ">
                                     {/* Heading */}
                                     <h1 className="font-ibarra font-bold text-[40px] leading-[42px] tracking-[-0.36px]  w-full md:w-1/ xl:w-full ">
-                                        Cart
+                                        Learning
                                     </h1>
 
 
@@ -40,7 +40,7 @@ export default function Cart() {
                                         <p className="font-publicSans font-bold text-[13px] leading-[30px] text-[#5FB4A2]">
                                             TAILWIND CSS/ REACT
                                         </p>
-                                        <a href='https://manojaba.github.io/Product-list-with-cart/' target='blank'>
+                                        <a href='https://manojaba.github.io/skilled-elearning-landing-page/' target='blank'>
                                             <button className="w-[175px] h-[48px] border border-[#33323D] font-publicSans font-normal text-[12px] tracking-[2px] text-[#33323D] mt-[24px]">
                                                 VIEW WEBSITE
                                             </button>
@@ -65,17 +65,17 @@ export default function Cart() {
                             This project was a front-end  challenge from Frontend Mentor. This entertainment web application challenge involves replicating a design with precision while showcasing interactive functionality. Users can navigate between Home, Movies, TV Series, and Bookmarked Shows, search for content, and manage bookmarks. The app dynamically populates data from a local data.json file and adapts to various screen sizes with optimal layouts. Interactive elements include hover states, enhancing user experience.
                         </p>
                         <h1 className='font-ibarra font-normal text-[32px] leading-[42px] tracking-[-0.29px] mb-[40px]'>Static Previews</h1>
-                        <img className='mb-[32px]' src='./images/detail/cart/dektop.png' alt='cart desktop layout'></img>
-                        <img className='mb-[64px] md:mb-[80px] xl:mb-[64px]' src='./images/detail/cart/mobile.png' alt='cart mobile layout'></img>
+                        <img className='mb-[32px]' src='./images/detail/elearning/desktop.png'></img>
+                        <img className='mb-[64px] md:mb-[80px] xl:mb-[64px]' src='./images/detail/elearning/mobile.png'></img>
                     </div>
                 </div>
                 <div className='  border-[#979797] border-opacity-15 border-t-2 border-b-2 flex justify-between '>
                     <div className='flex items-center space-x-[25px] py-[33px] w-1/2'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M9 0L1 8l8 8" /></svg>
 
-                        <NavLink to='/entertainment'>
+                        <NavLink to='/cart'>
                             <div>
-                                <h1 className='font-ibarra font-normal text-[32px] leading-[36px] tracking-[-0.29px]'>Entertainment</h1>
+                                <h1 className='font-ibarra font-normal text-[32px] leading-[36px] tracking-[-0.29px]'>Cart</h1>
                                 <p className='font-publicSans font-normal text-[16px] leading-[30px]'>Previous Project</p>
                             </div>
                         </NavLink>
@@ -84,9 +84,9 @@ export default function Cart() {
                     <div className='border-l-2 border-[#979797] border-opacity-15 '></div>
                     <div className='flex items-center justify-end space-x-[25px] py-[33px]   w-1/2 '>
 
-                        <NavLink to='/learning'>
+                        <NavLink to='/entertainment'>
                             <div>
-                                <h1 className='font-ibarra font-normal text-[32px] leading-[36px] tracking-[-0.29px]'>E-Learning</h1>
+                                <h1 className='font-ibarra font-normal text-[32px] leading-[36px] tracking-[-0.29px]'>Entertainment</h1>
                                 <p className='font-publicSans font-normal text-[16px] leading-[30px]'>Next Project</p>
 
                             </div>
