@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/manoj-portfolio/static/css/main.830b0273.css",
+    "main.js": "/manoj-portfolio/static/js/main.23425be9.js",
+    "static/js/453.ad0e1232.chunk.js": "/manoj-portfolio/static/js/453.ad0e1232.chunk.js",
+    "index.html": "/manoj-portfolio/index.html",
+    "main.830b0273.css.map": "/manoj-portfolio/static/css/main.830b0273.css.map",
+    "main.23425be9.js.map": "/manoj-portfolio/static/js/main.23425be9.js.map",
+    "453.ad0e1232.chunk.js.map": "/manoj-portfolio/static/js/453.ad0e1232.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.830b0273.css",
+    "static/js/main.23425be9.js"
+  ]
+}
